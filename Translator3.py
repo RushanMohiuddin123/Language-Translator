@@ -71,7 +71,7 @@ def main():
         print("Invalid selection. Defaulting to Hindi (hi).")
         lang_code = 'hi'
 
-    # 🚀 Run translation
+    # Run translation
     input_text = get_audio_input()
     if input_text:
         translated_text = translate_text(input_text, lang_code)
